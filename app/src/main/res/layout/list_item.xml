@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Input"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:id="@+id/in"
+        android:lines="1"
+        android:layout_weight="1"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Country 1"
+        android:textColor="#ffffff"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:id="@+id/c1"
+        android:lines="1"
+        android:layout_weight="1"
+        android:layout_marginLeft="25dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Country 2"
+        android:textSize="16sp"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:id="@+id/c2"
+        android:lines="1"
+        android:layout_marginLeft="25dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Result"
+        android:textColor="#ffffff"
+        android:textSize="16sp"
+        android:id="@+id/res"
+        android:gravity="center"
+        android:lines="1"
+        android:layout_weight="1"
+        android:layout_marginLeft="25dp"
+        />
+
+
+</LinearLayout>

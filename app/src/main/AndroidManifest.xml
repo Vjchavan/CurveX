@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.curvex">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".tem_history"
+            android:label="Temperature History"
+            android:parentActivityName=".ll"></activity>
+        <activity android:name=".w_history"
+            android:label="Weight History"
+            android:parentActivityName=".ww"/>
+        <activity android:name=".d_history"
+            android:label="Distance History"
+            android:parentActivityName=".dd"/>
+        <activity android:name=".t_history"
+            android:label="Time History"
+            android:parentActivityName=".tt"/>
+        <activity
+            android:name=".c_history"
+            android:label="Currency History"
+            android:parentActivityName=".cc" />
+        <activity
+            android:name=".about"
+            android:label="About"
+            android:parentActivityName=".home" />
+        <activity
+            android:name=".ll"
+            android:label="Temperature Converter"
+            android:parentActivityName=".home" />
+        <activity
+            android:name=".ww"
+            android:label="Weight Converter"
+            android:parentActivityName=".home" />
+        <activity
+            android:name=".dd"
+            android:label="Distance Converter"
+            android:parentActivityName=".home" />
+        <activity
+            android:name=".tt"
+            android:label="Time Converter"
+            android:parentActivityName=".home" />
+        <activity
+            android:name=".cc"
+            android:label="Currency Converter"
+            android:parentActivityName=".home" />
+        <activity
+            android:name=".home"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

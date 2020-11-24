@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">CurveX</string>
+    <string-array name="country">
+        <item>INDIA (INR)</item>
+        <item>USA (USD)</item>
+        <item>PAKISTAN (PKR)</item>
+        <item>UK (Pound)</item>
+    </string-array>
+    <string name="content">CurveX is a basic Converter app to help us in our day to day conversions like currency conversion,height, etc. Curvex\'s main intention is to make daily life conversions Easier and Quick.</string>
+    <string name="email">Email : </string>
+    <string name="email1">Vjchavan582000@gmail.com \n Nirajrasal17@gmail.com \n Rushikeshrathod249@gmail.com</string>
+    <string name="contact">9975946184(Vijay) \n 8605986150(Rushikesh) \n 75585799974(Niraj)</string>
+</resources>
